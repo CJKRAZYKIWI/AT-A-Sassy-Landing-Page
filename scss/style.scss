@@ -1,4 +1,6 @@
-
+@import "btnConfig";
+@import "utilities";
+@import "config";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  background-color: $red;
+  background-color: $light-color;
   font-family: $font-stack;
   line-height: 1;
 }
